@@ -5,7 +5,7 @@ import {logger} from "firebase-functions/v2";
 import {onTaskDispatched} from "firebase-functions/v2/tasks";
 import {onSchedule} from "firebase-functions/v2/scheduler";
 
-// has to match with producer function name
+// has to match with consumer function name
 const TASK_QUEUE_NAME = "simplecloudtask";
 
 type messageType = {
